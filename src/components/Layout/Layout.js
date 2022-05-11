@@ -104,7 +104,7 @@ const Layout = ({ title, children }) => {
                 <a className="navbar-brand logo">
                   <h3 className='text-white' >{title}</h3>
                 </a>
-                <Dropdown renderToggle={renderAvatar} placement="bottonEnd">
+                <Dropdown renderToggle={renderAvatar} placement="bottomEnd">
                   <Dropdown.Item>New File</Dropdown.Item>
                   <Dropdown.Item>New File with Current Profile</Dropdown.Item>
                   <Dropdown.Item>Download As...</Dropdown.Item>
